@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Peppa Pig</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> 
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js">
+  </script>
+
+	<style type="text/css">
+	.swiper{
+		width: 100%;
+		height: 300px;}
+	.swiper img{
+		width: 100%;
+		height: 300px;}</style>
+</head>
+
+<body class="body">
+    <main class="main">
+        <header class="header">
+		        <a href="index.html">
+		            <div id="efecto"><img src="img/logo1.png" alt="logo"></div>
+	          </a>
+        </header>
+
+	     
+		<nav class="navbar">
+		  <ul id="button">
+			   <li><a href="calzado.html">Botitas</a></li>
+			   <li><a href="peppa.html">Sobre Peppa</a></li>
+			   <li><a href="fan.html">FanPeppa</a></li>
+			</ul>
+	 </nav>
+
+	
+    <section class="section1">
+		<b1>¡Bienvenidos al mundo de...</b1>
+    <div class="stage">
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+</div><br>
+		<div class="contenedor2">
+			<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/familia1.jpg"></div>
+    <div class="swiper-slide"><img src="images/hermanos.jpg"></div>
+    <div class="swiper-slide"><img src="images/hermanos1.jpg"></div>
+    <div class="swiper-slide"><img src="images/amigas.jpg"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div><br><br>
+		<b2>¡Aprovechá las promos!</b2>
+		<div class="contenedor">
+	<div id="cuotas">35% off <br><br> + CUOTAS SIN INTERES</div>
+	<div id="regalo"> En tu próxima compra<br><br> ¡TE REGALAMOS UN PELUCHE DE PEPPA PIG!</div>
+	<div id="cyber"> ¡ENVÍOS GRATIS! <br><br> Aprovechá tu CYBER MONDAY</div></div></section>
+
+
+	<footer class="footer">
+	 <a href="micrositio.html">Malena Laurencena</a>
+	<footer id="red">
+		<a href="https://www.uces.edu.ar/" target="_blank"><img src="img/uces.png" alt="uces"></a></footer>
+		<footer id="red1">
+		<a href="https://www.discoverykidsplus.com/" target="_blank"><img src="img/klogo.png" alt="klogo"></a></footer>
+	</footer>
+
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script>
+ const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoplay:true,
+  effect:'fade',
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});</script>
+</main>
+</body>
+</html>
